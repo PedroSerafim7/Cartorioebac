@@ -131,6 +131,7 @@ int main()
 	char senhadigitada[10]="a";
 	int comparacao;
 	
+	setlocale(LC_ALL, "Portuguese");
 	printf("\n\t### Cartório da EBAC ###\t");
 	printf("\n\t Login de adminstrador!\n\n\n\nDigite a sua senha: ");
 	scanf("%s", senhadigitada);
